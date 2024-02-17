@@ -1,0 +1,34 @@
+{
+	"properties": [
+		{
+			"name": "spring.jpa.defer-datasource-initialization",
+			"type": "java.lang.Boolean",
+			"description": "Whether to defer datasource initialization until after any EntityManagerFactory beans have been created and initialized. This is useful when relying on Hibernate auto-ddl features to create the database schema, ensuring that data initialization SQL scripts run after the schema has been created."
+		},
+		{
+			"name": "spring.sql.init.schema-locations",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.sql.init.schema-locations'"
+		},
+		{
+			"name": "spring.sql.init.platform",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.sql.init.platform'"
+		},
+		{
+			"name": "spring.sql.init.mode",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.sql.init.mode'"
+		},
+		{
+			"name": "spring.sql.init.data-locations",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.sql.init.data-locations'"
+		},
+		{
+			"name": "spring.batch.jdbc.initialize-schema",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.batch.jdbc.initialize-schema'"
+		}
+	]
+}
